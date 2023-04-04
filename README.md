@@ -1,3 +1,17 @@
+CI/CD Pipeline for Serverless .NET Applications on AWS
+
+   Deploy an automated pipeline to build and deploy serverless .NET applications- 
+   
+ This Quick Start builds a continuous integration and delivery (CI/CD) pipeline for serverless .NET applications on the Amazon Web Services (AWS) Cloud. This scalable deployment helps you deliver features and updates rapidly and reliably. You have no build servers to manage, and you pay only for what you use. It deploys an AWS CodeCommit repository with a sample AWS Lambda application defined in an AWS Serverless Application Model (AWS SAM) template. Pushing changes to modify the application invokes AWS CodePipeline. The pipeline builds and deploys the application using AWS CloudFormation and exposes it to the internet with Amazon API Gateway.
+ 
+How To Deploy?
+
+1)Sign in to your AWS account. If you don't have an account, sign up at https://aws.amazon.com.
+2)click on the link. Before you create the stack, choose the Region from the top toolbar.
+3)Test the deployment. 
+
+Amazon may share user-deployment information with the AWS Partner that collaborated with AWS on this solution
+
 ## .NET CI/CD for Serverless Applications — Quick Start
 
 For architectural details, step-by-step instructions, and customization options, see the [deployment guide](https://fwd.aws/EvrJV?).
